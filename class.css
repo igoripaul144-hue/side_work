@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url( https://wallpapercave.com/wp/wp4676583.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+ 
+main {
+      background-color: rgba(104, 67, 204, 0.2); /* white with transparency */
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ #picture {
+    border-radius: 50% ;
+   
+    margin: 0 auto ;
+    width: 100px ;
+
+ }
+ h1 {
+    color: white;
+    font-weight: bold;
+ }
+ .chichi {
+    color: white;
+ }
+ .hey {
+    border-radius: 12px;
+    border-style: solid white;
+    border-color: rgb(6, 8, 131);
+    border: 16px;
+     backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(172, 12, 12, 0.3);
+  padding-bottom: 10px;
+
+ }
+ h2 {
+    color: rgb(194, 9, 9);
+     backdrop-filter: blur(10px);
+     text-align: center;
+     justify-content: center;
+ }
+ ul{
+    color: white;
+ }
+ h4 {
+     color: white;
+  text-shadow:
+    2px 2px 0 black,    
+    -2px -2px 0 black, 
+    2px 2px 0 red,     
+    -2px -2px 0 red;   
+  font-size: 30px;
+  font-weight: bold;
+ }
+ .cold {
+    font-weight: bolder;
+font-size: 20px;
+ }
+
+ .they {
+    border-radius: 12px;
+    border-color: hsl(0, 0%, 100%);
+    backdrop-filter: blur(10px);
+  box-shadow: 5px 10px 20px rgba(12, 3, 3, 0.3);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+ }
+ #broken {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+
+ }
+ h5 {
+    color: white;
+    background: red;
+    border: 12px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 16px;
+ }
+  .dear {
+    border: 20px;
+    border-radius: 16px;
+    border-color: darkblue;
+      backdrop-filter: blur(25px);
+  box-shadow: 5px 10px 20px rgba(12, 3, 3, 0.3);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  }
+  .blood:hover {
+    color: rgb(224, 150, 11);
+    cursor: pointer;
+    
+  }
+  .gain {
+    color: white;
+  }
