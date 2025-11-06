@@ -48,6 +48,7 @@ main {
   padding-bottom: 10px;
   padding-top: 12px;
   margin-bottom: 15px;
+  padding-right: 16px;
 
  }
  h2 {
@@ -121,11 +122,9 @@ font-size: 20px;
     color: white;
   }
   
-  button:hover{
-    background-color: rgb(241, 210, 33);
-    color: blueviolet;
-    cursor: pointer;
-  }
+ .those {
+    font-weight: bold;
+ }
   .personal {
     color: white;
     font-size: 16px;
@@ -134,3 +133,38 @@ font-size: 20px;
    margin-left: 50px;
 
   }
+  .posts {
+    color: white;
+    border-radius: 16px;
+    font-size: 24px;
+    background-color: rgb(18, 2, 155);
+    text-align: center;
+    justify-content: center;
+  }
+  .posts:hover {
+    color: rgb(59, 71, 230);
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+  }
+  #pp {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+  }
+  .cross {
+    color: red;
+     border-radius: 16px;
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    
+    text-align: center;
+    justify-content: center;
+  }
+  .cross:hover {
+      color: rgb(0, 0, 0);
+      background-color: rgb(131, 18, 18);
+    cursor: pointer;
+  }
+
