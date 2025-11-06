@@ -6,7 +6,7 @@ body {
     width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url( https://wallpapercave.com/wp/wp4676583.jpg);
+background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,7 +14,7 @@ body {
 }
  
 main {
-      background-color: rgba(104, 67, 204, 0.2); /* white with transparency */
+      background-color: black;
   padding: 30px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
@@ -42,11 +42,12 @@ main {
  .hey {
     border-radius: 12px;
     border-style: solid white;
-    border-color: rgb(6, 8, 131);
+    background-color: rgb(6, 8, 131);
     border: 16px;
      backdrop-filter: blur(10px);
-  box-shadow: 0 0 20px rgba(172, 12, 12, 0.3);
   padding-bottom: 10px;
+  padding-top: 12px;
+  margin-bottom: 15px;
 
  }
  h2 {
@@ -75,11 +76,12 @@ font-size: 20px;
 
  .they {
     border-radius: 12px;
-    border-color: hsl(0, 0%, 100%);
+   background-color: rgb(6, 8, 131);
     backdrop-filter: blur(10px);
-  box-shadow: 5px 10px 20px rgba(12, 3, 3, 0.3);
   padding-bottom: 10px;
   margin-bottom: 10px;
+  padding-top: 16px;
+  margin-top: 10px;
  }
  #broken {
     color: red;
@@ -94,6 +96,8 @@ font-size: 20px;
     border-radius: 10px;
     padding-bottom: 10px;
     padding-top: 16px;
+    font-weight: bold;
+    font-size: 24px;
  }
   .dear {
     border: 20px;
@@ -112,4 +116,21 @@ font-size: 20px;
   }
   .gain {
     color: white;
+  }
+  .home {
+    color: white;
+  }
+  
+  button:hover{
+    background-color: rgb(241, 210, 33);
+    color: blueviolet;
+    cursor: pointer;
+  }
+  .personal {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+   margin-top: 40px;
+   margin-left: 50px;
+
   }
